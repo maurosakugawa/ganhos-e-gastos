@@ -1,0 +1,62 @@
+
+# Correlação entre funcionalidades e tags html para estilização
+ 
+ [comment]: # (export default {)
+
+ 1. dateRangeWrapper: 'rdrDateRangeWrapper',
+ 1. calendarWrapper: 'rdrCalendarWrapper',
+ 1. dateDisplay: 'rdrDateDisplay',
+ 1. dateDisplay 1.Item: 'rdrDateDisplayItem',
+ 1. dateDispla 1.yItemActive: 'rdrDateDisplayItemActive',
+ 1. monthAndYe 1.arWrapper: 'rdrMonthAndYearWrapper',
+ 1. monthAndYearPickers: 'rdrMonthAndYearPickers',
+ 1. nextPrevButton: 'rdrNextPrevButton',
+ 1. month: 'rdrMonth',
+ 1. weekDays: 'rdrWeekDays',
+ 1. weekDay: 'rdrWeekDay',
+ 1. days: 'rdrDays',
+ 1. day: 'rdrDay',
+ 1. dayNumber: 'rdrDayNumber',
+ 1. dayPassive: 'rdrDayPassive',
+ 1. dayToday: 'rdrDayToday',
+ 1. dayStartOfWeek: 'rdrDayStartOfWeek',
+ 1. dayEndOfWeek: 'rdrDayEndOfWeek',
+ 1. daySelected: 'rdrDaySelected',
+ 1. dayDisabled: 'rdrDayDisabled',
+ 1. dayStartOfMonth: 'rdrDayStartOfMonth',
+ 1. dayEndOfMonth: 'rdrDayEndOfMonth',
+ 1. dayWeekend: 'rdrDayWeekend',
+ 1. dayStartPreview: 'rdrDayStartPreview',
+ 1. dayInPreview: 'rdrDayInPreview',
+ 1. dayEndPreview: 'rdrDayEndPreview',
+ 1. dayHovered: 'rdrDayHovered',
+ 1. dayActive: 'rdrDayActive',
+ 1. inRange: 'rdrInRange',
+ 1. endEdge: 'rdrEndEdge',
+ 1. startEdge: 'rdrStartEdge',
+ 1. prevButton: 'rdrPprevButton',
+ 1. nextButton: 'rdrNextButton',
+ 1. selected: 'rdrSelected',
+ 1. months: 'rdrMonths',
+ 1. monthPicker: 'rdrMonthPicker',
+ 1. yearPicker: 'rdrYearPicker',
+ 1. dateDisplayWrapper: 'rdrDateDisplayWrapper',
+ 1. definedRangesWrapper: 'rdrDefinedRangesWra1.pper',
+ 1. staticRanges: 'rdrStaticRanges',
+ 1. staticRange: 'rdrStaticRange',
+ 1. inputRanges: 'rdrInputRanges',
+ 1. inputRange: 'rdrInputRange',
+ 1. inputRangeInput: 'rdrInputRangeInput',
+ 1. dateRangePickerWrapper: 'rdrDateRangePickerWrapper',
+ 1. staticRangeLabel: 'rdrStaticRangeLabel',
+ 1. staticRangeSelected: 'rdrStaticRangeSelected',
+ 1. monthName: 'rdrMonthName',
+ 1. infiniteMonths: 'rdrInfiniteMonths',
+ 1. monthsVertical: 'rdrMonthsVertical',
+ 1. monthsHorizontal: 'rdrMonthsHorizontal',
+  
+  
+[comment]: # (};)
+
+###### correlação funcionalidade e tag html para estilização.
+<h6>Originalmente styles.js em: https://github.com/Adphorus/react-date-range</h6>

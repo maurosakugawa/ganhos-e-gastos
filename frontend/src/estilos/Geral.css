@@ -1,0 +1,71 @@
+
+.botao-header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 0;
+}
+
+.botao-middle {
+  justify-content: center;
+  align-items: center!important;
+  padding: 0 10px 0 10px!important;
+}
+
+.botao-middle1 {
+  justify-content: center;
+  align-items: center!important;
+  padding-bottom: 0!important;
+  padding-left: 10px!important;
+  padding-right: 10px!important;
+  padding-top: 6!important;
+}
+
+.entrada {
+  margin: 0 0 8px 0!important;
+  padding: 0!important;
+}
+
+  .iconeCadastro {
+    color: mediumBlue;
+  }
+
+  .iconeLogin {
+    color: SeaGreen;
+  }
+
+  .iconeDados {
+    color: blueGrey;
+  }
+
+  .iconeLogout {
+    color: fireBrick;
+  }
+
+  .iconeGanho {
+    color: SeaGreen;
+    size: .5;
+  }
+
+  .iconeGasto {
+    color: fireBrick;
+  }
+
+  .money{
+    color: dimGrey;
+  }
+
+  .ganhosegastos {
+    padding-left: 0!important;
+    padding-right: 0;
+    margin-right: 3px!important;
+  }
+
+  .grafico {
+    padding-left: 0!important;
+    padding-right: 1px!important;
+    margin-left: 0!important;
+    margin-right: 3px!important;
+  }
+
+  
