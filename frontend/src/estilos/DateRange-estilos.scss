@@ -1,0 +1,209 @@
+
+// de calendar-index
+
+.rdrCalendarWrapper {
+  box-sizing: border-box;
+  background: #ffffff;
+  display: inline-flex;
+  flex-direction: column;
+  user-select: none;
+  color: #000000;
+  font-size: 12px;
+}
+
+.rdrDateDisplay{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rdrDateDisplayItem{
+  flex: 1 1;
+  width: 0;
+  text-align: center;
+  color: inherit;
+  & + &{
+    margin-left: 0.833em;
+  }
+  input{
+    text-align: inherit;
+    &:disabled{
+      cursor: default;
+    }
+  }
+}
+
+.rdrMonthAndYearWrapper {
+  box-sizing: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rdrMonthAndYearPickers{
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rdrNextPrevButton {
+  box-sizing: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.rdrMonths{ // Foi alterada para alinhar o dateRange
+  display: flex;
+  flex-direction: column;
+}
+
+.rdrMonthsVertical{
+  flex-direction: column;
+}
+
+.rdrMonthsHorizontal > div > div > div{
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.rdrMonth{ // Foi alterada para alinhar o dateRange
+//  width: 27.667em;
+    display: flex;
+    flex-direction: column;
+}
+
+.rdrWeekDays{
+  display: flex;
+  text-align: left;;
+}
+
+.rdrWeekDay {
+  flex-basis: calc(100% / 7);
+  box-sizing: inherit;
+  text-align: left;
+}
+
+.rdrDays{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+  padding-left: 5px;
+}
+
+.rdrInfiniteMonths{
+  overflow: auto;
+}
+
+/* 
+.rdrDateDisplayItemActive{}
+.rdrMonthPicker{} 
+.rdrYearPicker{}
+.rdrPprevButton {}
+.rdrNextButton {}
+.rdrDateDisplayWrapper{}
+.rdrMonthName{} 
+*/
+
+/* ////////////////////////////////////////////// */
+// de DateInput-index
+
+.rdrDateInput {
+  position: relative;
+
+  input {
+    outline: none;
+  }
+
+  .rdrWarning {
+    position: absolute;
+    font-size: 1.6em;
+    line-height: 1.6em;
+    top: 0;
+    right: .25em;
+    color: #FF0000;
+  }
+}
+
+/* //////////////////////////////////////////////////// */
+
+// de DateRange-index
+
+.rdrDateRangeWrapper{
+  user-select: none;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+// de DateRangePicker-index
+
+.rdrDateRangePickerWrapper{
+  display: inline-flex;
+  user-select: none;
+}
+
+/* //////////////////////////////////////////////////// */
+// de DayCell-index
+
+.rdrDay {
+  box-sizing: inherit;
+  width: calc(100% / 7);
+  position: relative;
+  font: inherit;
+  cursor: pointer;
+}
+
+.rdrDayNumber {
+  display: block;
+  position: relative;
+  span{
+    color: #1d2429;
+  }
+}
+
+.rdrDayDisabled {
+  cursor: not-allowed;
+}
+
+@supports (-ms-ime-align: auto) {
+  .rdrDay {
+    flex-basis: 14.285% !important;
+  }
+}
+
+.rdrSelected, .rdrInRange, .rdrStartEdge, .rdrEndEdge{
+  pointer-events: none;
+}
+
+.rdrDayStartPreview, .rdrDayInPreview, .rdrDayEndPreview{
+  pointer-events: none;
+}
+
+/*
+.rdrInRange{}
+.rdrDayHovered{}
+.rdrDayActive{}
+*/
+
+/* ////////////////////////////////////////////////////////// */
+
+// de DefinedRange-index
+
+.rdrStaticRanges{
+  display: flex;
+  flex-direction: column;
+}
+
+.rdrStaticRange{
+  font-size: inherit;
+}
+
+.rdrInputRange{
+  display: flex;
+}
+
+/*
+.rdrDefinedRangesWrapper{}
+ .rdrStaticRangeLabel{}
+ .rdrInputRanges{}
+ .rdrInputRangeInput{}
+*/
